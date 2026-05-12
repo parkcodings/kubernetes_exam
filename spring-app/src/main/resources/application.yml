@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/examdb}
+    username: ${SPRING_DATASOURCE_USERNAME:examuser}
+    password: ${SPRING_DATASOURCE_PASSWORD:exampass}
+    driver-class-name: org.postgresql.Driver
+  sql:
+    init:
+      mode: always
+      continue-on-error: false
+server:
+  port: ${SERVER_PORT:8080}
