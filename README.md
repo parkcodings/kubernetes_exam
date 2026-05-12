@@ -1,7 +1,5 @@
 # Kubernetes Exam Project
 
-최소 합격용 구성입니다.
-
 ## 구성
 
 - `docker-compose.yml`: PostgreSQL, Nginx, Spring Boot 3개 서비스
